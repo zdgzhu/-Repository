@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+       android:shape="oval"
+    >
+    
+    
+    <!-- 设置渐变色 -->
+    <gradient android:startColor="#ff0"
+              android:endColor="#00f"
+              android:type="sweep"
+        ></gradient>
+    
+    
+    <!-- 设置内填充 -->
+    <padding 
+        android:left="5dp"
+        android:top="5dp"
+        android:right="10dp" 
+        android:bottom="10dp"
+        ></padding>
+    
+    <!-- 设置圆角形 -->
+    
+    <corners  android:radius="1dp"></corners>
+    
+    
+    
+    
+    
+    
+    
+
+</shape>

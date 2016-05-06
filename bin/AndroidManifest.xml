@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drawabless"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.drawabless.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.drawabless.LayerDrawableActivity"
+            android:label="@string/title_activity_layer_drawable" >
+        </activity>
+        <activity
+            android:name="com.example.drawabless.ShapeDrawableActivity"
+            android:label="@string/title_activity_shape_drawable" >
+        </activity>
+        <activity
+            android:name="com.example.drawabless.ClipDrawableActivity"
+            android:label="@string/title_activity_clip_drawable" >
+        </activity>
+        <activity
+            android:name="com.example.drawabless.AnimationActivity"
+            android:label="@string/title_activity_animation" >
+        </activity>
+        <activity
+            android:name="com.example.drawabless.ObjectAnimatorActivity"
+            android:label="@string/title_activity_object_animator" >
+        </activity>
+    </application>
+
+</manifest>
